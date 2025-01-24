@@ -2,7 +2,7 @@ pipeline{
 agent { label 'masternode' }
 
 environment {
-    DOCKER_IMAGE_NAME = 'maharabashu/python'
+    DOCKER_IMAGE_NAME = 'bashumahara/python'
     DOCKER_IMAGE_TAG = 'latest'
 }
 
